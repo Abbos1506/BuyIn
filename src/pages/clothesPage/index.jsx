@@ -6,7 +6,6 @@ const ClothesPage = () => {
     return <div className="clothesPage">
         <HeaderComp/>
         <MainComp/>
-        <Footer/>
     </div>
 }
 

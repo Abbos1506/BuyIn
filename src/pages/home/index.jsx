@@ -31,9 +31,6 @@ const HomePage = () => {
     <div className="sales__page2">
       <SalesPage/>
     </div>
-    <div className="footer__page">
-      <Footer/>
-    </div>
     </div>
 }
 
