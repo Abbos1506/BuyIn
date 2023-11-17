@@ -5,7 +5,7 @@ import HomePage from "../pages/home";
 const routeData = [
     {
         id:1,
-        path:"/мужчинам",
+        path:"/",
         companent:<HomePage/>
     },
     {
