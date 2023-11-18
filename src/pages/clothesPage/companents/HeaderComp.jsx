@@ -4,7 +4,7 @@ const HeaderComp = () => {
     return <div className="header container">
         <div className="menu__list">
             <ul className="menu__item">
-                <Link>Главная</Link>
+                <Link to="/">Главная</Link>
                 <Link>Спорт</Link>
                 <Link>Спортивные кроссовки</Link>
             </ul>

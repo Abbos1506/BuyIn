@@ -3,7 +3,7 @@ import ProductPage from "./companents/products";
 import TrendPage from "./companents/trends";
 import AddsPage from "./companents/adds";
 import SalesPage from "./companents/sales";
-import Footer from "./companents/footer";
+import Footer from "../home/companents/footer";
 
 const HomePage = () => {
     return <div className="home">
@@ -30,6 +30,9 @@ const HomePage = () => {
     </div>
     <div className="sales__page2">
       <SalesPage/>
+    </div>
+    <div className="footer__page">
+      <Footer/>
     </div>
     </div>
 }

@@ -11,7 +11,7 @@ const CategoryData = [
         id:1,
         icon:<CategoryImg1/>,
         title:"Мужчинам",
-        path:"/мужчинам",
+        path:"/",
     },
     {
         id:2,
