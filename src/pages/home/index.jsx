@@ -4,9 +4,15 @@ import TrendPage from "./companents/trends";
 import AddsPage from "./companents/adds";
 import SalesPage from "./companents/sales";
 import Footer from "../home/companents/footer";
+import React from 'react';
+import { FloatButton } from 'antd';
 
 const HomePage = () => {
-    return <div className="home">
+    return <div className="home"
+      style={{
+        height: '300vh',
+        padding: 10,
+    }}>
         <div className="swiper__page">
             <div className="container">
                 <SwiperPage/>
@@ -34,6 +40,7 @@ const HomePage = () => {
     <div className="footer__page">
       <Footer/>
     </div>
+    <FloatButton.BackTop />
     </div>
 }
 

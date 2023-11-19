@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 
 const CardsComp = () => {
@@ -24,6 +25,7 @@ const CardsComp = () => {
         <div className="clothes__cards"> 
         {
             data.map(item => (
+                <Link to="/спорт">
                 <div className="clother__card">
                     <div className="card__img">
                         <img src={item.image} alt={item.title} />
@@ -42,6 +44,7 @@ const CardsComp = () => {
                         <p>{Math.floor(item.price)} $</p>
                     </div>
                 </div>
+                </Link>
             ))
         }
         </div>

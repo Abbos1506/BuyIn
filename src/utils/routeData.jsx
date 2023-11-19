@@ -1,3 +1,4 @@
+import ActivePage from "../pages/actived";
 import ClothesPage from "../pages/clothesPage";
 import HomePage from "../pages/home";
 
@@ -16,7 +17,7 @@ const routeData = [
     {
         id:3,
         path:"/спорт", 
-        companent:<ClothesPage/>
+        companent:<ActivePage/>
     },
     {
         id:4,
