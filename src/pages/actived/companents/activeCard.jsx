@@ -37,14 +37,14 @@ const ActCardComp = () => {
           <CardInfoComp/>
         </div>
         <div className="card__plan">
-          <div className="card__title">
+          <div className="card__plan__title">
             <h2>0% рассрочка</h2>
           </div>
-          <div className="card__price">
+          <div className="card__plan__price">
             <h1>92.000 UZS</h1>
             <span>4X</span>
           </div>
-          <div className="card__text">
+          <div className="card__plan__text">
             <p>Быстро доставим любой Ваш заказ по всему Узбекистану!</p>
             <p>Срок доставки от 1 до 2х рабочих дней Стоимость доставки: 30 000 сум!</p>
           </div>

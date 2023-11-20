@@ -1026,6 +1026,7 @@ button {
         border: none;
         border-radius: 5px;
         color: #fff;
+        font-size: 14px;
     }
 
     p {
@@ -1037,7 +1038,7 @@ button {
 
 .card__price {
     h2 {
-        font-size: 16px;
+        font-size: 18px;
         color: #000;
         font-weight: 600;
     }
@@ -1139,13 +1140,10 @@ button {
 
 .card__info {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
 }
 
 .info__color {
     display: flex;
-    gap: 15px;
 }
 
 .info__img {
@@ -1248,12 +1246,13 @@ button {
 }
 
 .description__btn {
-    button {
-        padding: 10px 57px;
+    .desc__button {
+        padding: 1px 57px 20px;
         border-radius: 10px;
         color: #fff;
         font-size: 16px;
         font-weight: 600;
+        background: #27376F;
     }
 }
 
@@ -1265,8 +1264,8 @@ button {
     padding: 60px 20px;
 }
 
-.card__title {
-    margin: 0 auto;
+.card__plan__title {
+    text-align: center;
     h2 {
         color: #000;
         font-size: 24px;
@@ -1274,7 +1273,7 @@ button {
     }
 }
 
-.card__price {
+.card__plan__price {
     margin: 10px auto 32px;
     display: flex;
     justify-content: center;
@@ -1292,7 +1291,7 @@ button {
     }
 }
 
-.card__text {
+.card__plan__text {
     display: flex;
     flex-direction: column;
     gap: 10px;

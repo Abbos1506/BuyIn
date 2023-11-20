@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import InfoColor from "./infoColor";
 import { ShoppingCartOutlined, UserSwitchOutlined, RetweetOutlined } from "@ant-design/icons";
 import BrendLogo from "../../../assets/image/brend-logo.png"
+import ModalComp from "../../../companents/modal";
 
 const CardInfoComp = () => {
 
@@ -22,7 +23,7 @@ const CardInfoComp = () => {
         .catch((error) => console.log(error));
     }, []);
 
-    return <div className="card__info">
+    return <div className="act__card__info">
         <InfoColor/>
         <div className="card__description">
             {
@@ -66,7 +67,7 @@ const CardInfoComp = () => {
                             <h2>{Math.floor(item.price)} 000 UZS</h2>
                         </div>
                         <div className="description__btn">
-                            <button>В Корзину</button>
+                            <ModalComp/>
                         </div>
                     </div>
                 ))
