@@ -1067,6 +1067,12 @@ button {
 
 // active page start
 
+.card__image__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .actcard__comp {
     display: flex;
     justify-content: space-between;
