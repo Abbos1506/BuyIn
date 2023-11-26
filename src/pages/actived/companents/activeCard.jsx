@@ -24,15 +24,13 @@ const ActCardComp = () => {
       })
   }, []);
 
-  console.log(data)
-
     return <div className="actcard__comp">
         <div className="card__slider">
             <CardSlider/>
         </div>
         <div className="comp__img">
             <div className="card__image">
-              <img src={id} alt="/" />
+              <img src={id} alt="/" key={id}/>
             </div>
         </div>
         <div className="card__image__info">
